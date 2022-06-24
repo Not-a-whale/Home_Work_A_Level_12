@@ -8,6 +8,7 @@ namespace HW_12
 {
     internal class Adder
     {
+
         public delegate void ResultHandler(int smth);
         public delegate void Summator(int a, int b);
         public static event ResultHandler? ShowResult;
